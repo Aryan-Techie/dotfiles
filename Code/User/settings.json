@@ -8,7 +8,6 @@
     "liveServer.settings.port": 5500,
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "Jetbrains Mono, Cascadia Code, 'Courier New', monospace",
-    "python.defaultInterpreterPath": "C:\\Users\\aryan\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
     "explorer.confirmDragAndDrop": false,
     "codeium.enableConfig": {
         "*": true
@@ -158,9 +157,6 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "chat.editing.confirmEditRequestRemoval": false,
     "terminal.external.linuxExec": "ptyxis",
-    "terminal.integrated.automationProfile.linux": {
-        
-    },
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 2,
     "window.menuBarVisibility": "toggle",
