@@ -1,0 +1,8 @@
+.ssh/
+.gnupg/
+.cache/
+.local/
+.mozilla/
+.pki/
+.var/
+
