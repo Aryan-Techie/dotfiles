@@ -1,174 +1,235 @@
-# 🚀 Aryan's Dotfiles
+# 🚀 Aryan Techie's Dotfiles
 
-> My personal configuration files for a productive development environment
+> My personal configuration files for a productive Linux development environment
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Aryan-Techie/dotfiles)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Aryan-Techie/dotfiles)
-![GitHub](https://img.shields.io/github/license/Aryan-Techie/dotfiles)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 📋 What's Included
 
-- **🐚 Shell Configuration**: Zsh with custom aliases and functions
-- **⚙️ Git Configuration**: Global git settings and aliases
-- **💻 VS Code Settings**: Editor preferences and extensions
-- **🛠️ Development Tools**: Various tool configurations
+- **🐚 Zsh Configuration**: Enhanced shell with custom aliases, functions, and plugins
+- **⚙️ Git Configuration**: Comprehensive git settings with useful aliases
+- **💻 VS Code Settings**: Optimized editor configuration
+- **✨ Starship Prompt**: Beautiful, informative terminal prompt
+- **🛠️ System Scripts**: Automated system maintenance utilities
 
-## 🎯 Features
+## 🎯 Key Features
 
-- **Fast Development Workflow**: Custom aliases for common tasks
-- **Cross-Platform Support**: Works on Linux, macOS, and Windows (WSL)
-- **Modular Structure**: Easy to customize and extend
-- **Auto-completion**: Enhanced shell experience with syntax highlighting
+- **Fedora-Optimized**: DNF package management aliases and system utilities
+- **Developer-Friendly**: Git shortcuts, development tool aliases, and functions
+- **System Monitoring**: Temperature, fan speed, and system information commands
+- **Flatpak Integration**: Easy Flatpak application management
+- **Automated Updates**: System update scripts for multiple package managers
 
-## 🚀 Quick Start
+## 🚀 Quick Installation
 
 ### Prerequisites
 
-- Git
-- Zsh (recommended) or Bash
-- [Starship](https://starship.rs/) prompt
-- [Atuin](https://atuin.sh/) for shell history
+- **Zsh** - Primary shell
+- **Git** - Version control
+- **Starship** - Terminal prompt (`curl -sS https://starship.rs/install.sh | sh`)
+- **Atuin** - Shell history (`curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh`)
 
-### Installation
+### Automatic Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Aryan-Techie/dotfiles.git ~/.dotfiles
-
-# Navigate to the directory
 cd ~/.dotfiles
-
-# Run the installation script (coming soon!)
+chmod +x install.sh
 ./install.sh
 ```
 
-### Manual Installation
+### Manual Setup
 
 ```bash
-# Backup existing configs (optional)
-cp ~/.zshrc ~/.zshrc.backup
-cp ~/.gitconfig ~/.gitconfig.backup
+# Backup existing configs
+cp ~/.zshrc ~/.zshrc.backup 2>/dev/null || true
+cp ~/.gitconfig ~/.gitconfig.backup 2>/dev/null || true
 
-# Symlink the configs
+# Create symlinks
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/.gitignore_global ~/.gitignore_global
+ln -sf ~/.dotfiles/.config/starship.toml ~/.config/starship.toml
 
-# For VS Code settings (adjust path as needed)
+# VS Code settings (Linux)
+mkdir -p ~/.config/Code/User
 ln -sf ~/.dotfiles/Code/User/settings.json ~/.config/Code/User/settings.json
 
 # Reload shell
 source ~/.zshrc
 ```
 
-## 📁 File Structure
+## 📁 Repository Structure
 
 ```
 dotfiles/
-├── .gitconfig          # Git global configuration
-├── .gitignore          # Files to ignore in dotfiles repo
-├── .zshrc              # Zsh shell configuration
-├── Code/
-│   └── User/
-│       └── settings.json   # VS Code settings
-├── install.sh          # Installation script
-└── README.md           # This file
+├── .config/
+│   └── starship.toml       # Starship prompt configuration
+├── Code/User/
+│   └── settings.json       # VS Code editor settings
+├── scripts/
+│   └── update-system.sh    # System update utility
+├── .gitconfig              # Git global configuration with aliases
+├── .gitignore              # Repository ignore rules
+├── .gitignore_global       # Global gitignore patterns
+├── .zshrc                  # Zsh shell configuration
+├── install.sh              # Automated setup script
+├── LICENSE                 # MIT license
+└── README.md               # This documentation
 ```
 
-## 🛠️ Customization
+## ⚡ Available Commands & Aliases
 
-### Adding Your Own Aliases
+### 📦 Package Management (Fedora/DNF)
+- `sd` - sudo dnf (quick DNF access)
+- `sdu` - Update all system packages
+- `sdi <package>` - Install package
+- `sdr <package>` - Remove package
+- `sdc` - Clean package cache
 
-Edit `.zshrc` and add your custom aliases:
-
-```bash
-# Your custom aliases
-alias myalias="your command here"
-```
-
-### VS Code Extensions
-
-Install recommended extensions:
-
-```bash
-# Material Icon Theme
-code --install-extension PKief.material-icon-theme
-
-# Prettier
-code --install-extension esbenp.prettier-vscode
-
-# Add more as needed
-```
-
-## 🔧 Tools & Dependencies
-
-### Shell Tools
-- [Starship](https://starship.rs/) - Cross-shell prompt
-- [Atuin](https://atuin.sh/) - Magical shell history
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-
-### Development Tools
-- [VS Code](https://code.visualstudio.com/) - Code editor
-- Git - Version control
-- Various programming language tools
-
-## 📝 Available Aliases
-
-### System Management
-- `sdu` - Update system packages
-- `sdi` - Install packages
-- `sdr` - Remove packages
+### 🔄 System Control
 - `sus` - Suspend system
+- `reboot` - Restart system
+- `shutdown` - Power off system
 
-### Flatpak Management
-- `fpi` - Install flatpak
-- `fpr` - Remove flatpak
-- `fpu` - Update flatpaks
-- `fpclean` - Clean unused flatpaks
+### 📱 Flatpak Management
+- `fpi <app>` - Install Flatpak app
+- `fpr <app>` - Remove Flatpak app
+- `fpu` - Update all Flatpak apps
+- `fpclean` - Remove unused Flatpaks
+- `fpl` - List installed apps
+- `fps <term>` - Search for apps
 
-### Navigation
-- `docs` - Go to Documents
-- `down` - Go to Downloads
-- `desk` - Go to Desktop
-- `pics` - Go to Pictures
+### 🧭 Navigation Shortcuts
+- `docs` → ~/Documents
+- `down` → ~/Downloads
+- `desk` → ~/Desktop
+- `pics` → ~/Pictures
+- `dotfiles` → ~/.dotfiles
+- `..` / `...` / `....` - Navigate up directories
 
-### System Info
-- `temp` - Check CPU/GPU temperature
-- `fan` - Check fan speed
-- `myip` - Show local IP address
+### 🔧 Development Tools
+- `g` - Git shortcut
+- `gs` - Git status
+- `ga` - Git add
+- `gc` - Git commit
+- `gp` - Git push
+- `c` - Open current directory in VS Code
+- `py` - Python3
+- `ni` / `ns` / `nr` - NPM shortcuts
 
-## 🔄 Updates
+### 📊 System Information
+- `temp` - CPU/GPU temperature
+- `fan` - Fan speed (ASUS systems)
+- `vit` - Show vitals (temp + fan)
+- `myip` - Local IP address
+- `meminfo` - Memory usage
+- `diskinfo` - Disk usage
 
-To update your dotfiles:
+### 🛠️ Useful Functions
+- `mkcd <dir>` - Create and enter directory
+- `extract <file>` - Extract various archive formats
+- `psg <process>` - Find process by name
+- `dirsize` - Show directory sizes sorted by size
+
+## 🔄 Keeping Updated
 
 ```bash
 cd ~/.dotfiles
 git pull origin main
-source ~/.zshrc  # Reload shell config
+source ~/.zshrc  # Reload shell configuration
 ```
+
+## 🛠️ Customization
+
+Add your personal aliases to `.zshrc`:
+
+```bash
+# Personal aliases section
+alias myalias="your command here"
+```
+
+Modify Starship prompt in `.config/starship.toml` to match your preferences.
 
 ## 🤝 Contributing
 
-Feel free to fork this repository and customize it for your needs! If you have suggestions or improvements:
+Contributions are welcome! Whether you want to fix bugs, add new features, or improve documentation, here's how you can help:
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+### 📋 Guidelines
+
+1. **Fork the Repository**
+   ```bash
+   # Fork on GitHub, then clone your fork
+   git clone https://github.com/YOUR_USERNAME/dotfiles.git
+   cd dotfiles
+   ```
+
+2. **Create a Feature Branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   # or
+   git checkout -b fix/bug-description
+   ```
+
+3. **Make Your Changes**
+   - Keep changes focused and atomic
+   - Test your changes thoroughly
+   - Follow existing code style and organization
+   - Update documentation if needed
+
+4. **Commit Your Changes**
+   ```bash
+   git add .
+   git commit -m "feat: add useful alias for X"
+   # or
+   git commit -m "fix: correct path in install script"
+   ```
+
+   **Commit Message Format:**
+   - `feat:` - New features or aliases
+   - `fix:` - Bug fixes
+   - `docs:` - Documentation updates
+   - `config:` - Configuration changes
+   - `refactor:` - Code refactoring
+
+5. **Submit a Pull Request**
+   - Push your branch to your fork
+   - Create a pull request with a clear description
+   - Explain what your changes do and why they're useful
+
+### 💡 Ideas for Contributions
+
+- **New Aliases**: Useful command shortcuts for development
+- **Cross-Platform Support**: Adaptations for other Linux distributions
+- **New Configurations**: Additional tool configurations (tmux, vim, etc.)
+- **Scripts**: Useful automation scripts
+- **Documentation**: Improve setup instructions or add tips
+- **Themes**: Starship prompt themes or VS Code themes
+
+### 🐛 Reporting Issues
+
+Found a bug or have a suggestion? Please open an issue with:
+- Clear description of the problem
+- Steps to reproduce (if applicable)
+- Your system information (OS, shell version, etc.)
+- Expected vs actual behavior
+
+### ✨ Feature Requests
+
+Have an idea for improvement? Open an issue with:
+- Clear description of the proposed feature
+- Use case and benefits
+- Any implementation ideas you might have
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Inspired by the amazing dotfiles community
-- Thanks to all the open-source tool creators
-- Special mention to [Starship](https://starship.rs/) and [Atuin](https://atuin.sh/) teams
-
 ## 📞 Contact
 
-- GitHub: [@Aryan-Techie](https://github.com/Aryan-Techie)
+- LinkedIn: [Aryan Jangra (@aryantechie)](https://linkedin.com/in/aryantechie/)
 - Website: [aryantechie.com](https://aryantechie.com)
 
 ---
