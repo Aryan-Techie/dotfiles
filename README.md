@@ -82,6 +82,7 @@ dotfiles/
 │   ├── export-gnome-settings.sh   # GNOME settings export
 │   ├── import-gnome-settings.sh   # GNOME settings import
 │   ├── install-extensions.sh      # GNOME extensions installer
+│   ├── install-themes.sh          # Custom themes installer
 │   └── update-system.sh           # System update utility
 ├── .gitconfig              # Git global configuration with aliases
 ├── .gitignore              # Repository ignore rules

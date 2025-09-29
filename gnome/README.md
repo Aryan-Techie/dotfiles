@@ -13,34 +13,68 @@ This directory contains safely exported GNOME desktop settings, themes, and exte
 
 ## 📁 Directory Structure
 
+## 📁 Directory Structure
+
 ```
 gnome/
-├── settings/               # GNOME dconf settings
-│   ├── background.dconf    # Desktop wallpaper & background
-│   ├── interface.dconf     # Themes, fonts, GTK settings
-│   ├── wm.dconf           # Window manager preferences
-│   ├── shell.dconf        # GNOME Shell configuration
-│   ├── extensions.dconf    # Extension settings
-│   ├── keybindings.dconf   # Custom keyboard shortcuts
-│   ├── peripherals.dconf   # Mouse, touchpad settings
-│   ├── terminal.dconf      # Terminal preferences
-│   ├── gtk3-settings.ini   # GTK 3 theme settings
-│   └── gtk4-settings.ini   # GTK 4 theme settings
-├── extensions/             # Extension information
-│   └── extensions-list.txt # List of installed extensions
-└── README.md              # This file
+├── extensions/             # GNOME Shell extensions list
+├── settings/               # GNOME desktop configuration files
+└── README.md               # This documentation
 ```
 
-## 🚀 Quick Setup
+## 🎨 Required Themes
+
+This configuration uses the following custom themes that need to be installed:
+
+### **GTK Themes**
+- **Marble-blue-dark** - Dark blue GTK theme for applications
+  - 📦 Source: [Marble Shell Theme](https://github.com/imarkoff/Marble-shell-theme)
+  - 🎯 Variant: Blue Dark
+
+### **Icon Themes** 
+- **WhiteSur-dark** - macOS Big Sur inspired dark icon theme
+  - 📦 Source: [WhiteSur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
+  - 🎯 Variant: Dark
+
+### **Cursor Themes**
+- **McMojave-cursors** - macOS Mojave inspired cursor theme
+  - 📦 Source: [McMojave Cursors](https://github.com/vinceliuice/McMojave-cursors)
+
+## 🚀 Installation
+
+### Install Themes (Recommended)
+```bash
+# Automated theme installation
+./scripts/install-themes.sh
+```
+
+### Manual Theme Installation
+```bash
+# Marble Shell Theme
+git clone https://github.com/imarkoff/Marble-shell-theme.git
+cd Marble-shell-theme
+cp -r Marble-blue-dark ~/.themes/
+
+# WhiteSur Icon Theme  
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
+cd WhiteSur-icon-theme
+./install.sh
+
+# McMojave Cursors
+git clone https://github.com/vinceliuice/McMojave-cursors.git
+cd McMojave-cursors
+./install.sh
+```
+
+### Apply GNOME Settings
+```bash
+# Import all desktop settings (includes theme preferences)
+./scripts/import-gnome-settings.sh
+```
 
 ### Export Current Settings
 ```bash
 ./scripts/export-gnome-settings.sh
-```
-
-### Import Settings
-```bash
-./scripts/import-gnome-settings.sh
 ```
 
 ## 🧩 Extensions Included
