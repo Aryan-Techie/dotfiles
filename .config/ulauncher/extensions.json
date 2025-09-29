@@ -1,0 +1,44 @@
+{
+    "com.github.ulauncher.ulauncher-kill": {
+        "id": "com.github.ulauncher.ulauncher-kill",
+        "url": "https://github.com/Ulauncher/ulauncher-kill",
+        "updated_at": "2025-06-14T14:36:43.988278",
+        "last_commit": "00ffe8266dbb6c2aea7d86a6363e51cec4b1981f",
+        "last_commit_time": "2022-11-26T16:15:05"
+    },
+    "com.github.eckhoff42.ulauncher-bluetooth-quick-connect": {
+        "id": "com.github.eckhoff42.ulauncher-bluetooth-quick-connect",
+        "url": "https://github.com/Eckhoff42/Ulauncher-Bluetooth-quick-connect",
+        "updated_at": "2025-06-14T14:36:51.016049",
+        "last_commit": "2cb1d85cdfa870888e3eeda733b63467b0966ad1",
+        "last_commit_time": "2022-05-10T15:18:43"
+    },
+    "com.github.friday.ulauncher-gnome-settings": {
+        "id": "com.github.friday.ulauncher-gnome-settings",
+        "url": "https://github.com/friday/ulauncher-gnome-settings",
+        "updated_at": "2025-06-14T14:36:57.730034",
+        "last_commit": "58aa3c1e90d46007b0bbbae5bfbd5093b527032f",
+        "last_commit_time": "2023-11-25T22:40:04"
+    },
+    "com.github.kleber-swf.ulauncher-turn-off-screen": {
+        "id": "com.github.kleber-swf.ulauncher-turn-off-screen",
+        "url": "https://github.com/kleber-swf/ulauncher-turn-off-screen",
+        "updated_at": "2025-06-14T14:37:37.613690",
+        "last_commit": "a461b89706008fcb5605b6e800fec29308b70a04",
+        "last_commit_time": "2020-11-18T20:05:35"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2025-06-14T14:37:55.688066",
+        "last_commit": "7dedd992709fa2297735cddf852404144d4da47c",
+        "last_commit_time": "2023-11-14T16:53:20"
+    },
+    "com.github.sshomaaa.ulauncher-window-switcher": {
+        "id": "com.github.sshomaaa.ulauncher-window-switcher",
+        "url": "https://github.com/sshomaaa/ulauncher-window-switcher",
+        "updated_at": "2025-07-05T16:37:53.467975",
+        "last_commit": "e10772e55c6b301ae883d10f22f9c453044dfc10",
+        "last_commit_time": "2025-04-09T13:25:06"
+    }
+}

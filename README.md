@@ -13,6 +13,7 @@
 - **💻 VS Code Settings**: Optimized editor configuration
 - **🎨 GNOME Desktop**: Complete desktop environment with 30+ extensions
 - **🎮 Input Remapper**: Device-specific key and button remapping presets
+- **🚀 Ulauncher**: Application launcher with custom shortcuts and extensions
 - **✨ Starship Prompt**: Beautiful, informative terminal prompt
 - **🛠️ System Scripts**: Automated system maintenance utilities
 
@@ -34,6 +35,7 @@
 - **Git** - Version control
 - **Starship** - Terminal prompt (`curl -sS https://starship.rs/install.sh | sh`)
 - **Atuin** - Shell history (`curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh`)
+- **Ulauncher** - Application launcher (`sudo dnf install ulauncher` or download from [ulauncher.org](https://ulauncher.org/))
 
 ### Automatic Installation
 
@@ -44,7 +46,32 @@ chmod +x install.sh
 ./install.sh
 ```
 
-### Manual Setup
+## 🚀 Ulauncher Application Launcher
+
+Ulauncher is configured with useful extensions and custom shortcuts for enhanced productivity.
+
+### 📦 Included Extensions
+
+- **Kill Process** - Quickly terminate processes
+- **Bluetooth Quick Connect** - Fast Bluetooth device connection
+- **GNOME Settings** - Quick access to system settings
+- **Turn Off Screen** - Instant screen lock
+- **System Commands** - System control shortcuts
+- **Window Switcher** - Application window management
+
+### ⚡ Custom Shortcuts
+
+The configuration includes 40+ custom shortcuts for common services:
+
+- **Search Engines**: Google, Stack Overflow, Wikipedia
+- **Development**: GitHub, GitLab, AWS Console, Docker Hub
+- **Productivity**: Gmail, Calendar, Notion, Todoist
+- **Social Media**: LinkedIn, Twitter, Reddit, Discord
+- **Entertainment**: YouTube, Spotify, Netflix
+- **AI Tools**: ChatGPT, Claude, Perplexity
+- **Translation**: Google Translate with smart language detection
+
+### 🔧 Manual Setup
 
 ```bash
 # Backup existing configs
@@ -61,6 +88,10 @@ ln -sf ~/.dotfiles/.config/starship.toml ~/.config/starship.toml
 mkdir -p ~/.config/Code/User
 ln -sf ~/.dotfiles/Code/User/settings.json ~/.config/Code/User/settings.json
 
+# Ulauncher configuration
+mkdir -p ~/.config/ulauncher
+ln -sf ~/.dotfiles/.config/ulauncher/* ~/.config/ulauncher/
+
 # Reload shell
 source ~/.zshrc
 ```
@@ -71,6 +102,7 @@ source ~/.zshrc
 dotfiles/
 ├── .config/
 │   ├── input-remapper-2/   # Input device remapping presets
+│   ├── ulauncher/          # Application launcher configuration
 │   └── starship.toml       # Starship prompt configuration
 ├── Code/User/
 │   └── settings.json       # VS Code editor settings

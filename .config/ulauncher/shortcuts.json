@@ -1,0 +1,422 @@
+{
+    "73f9a16f-f64c-41fa-88ef-02535f191f4e": {
+        "id": "73f9a16f-f64c-41fa-88ef-02535f191f4e",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "https://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749877770.038661
+    },
+    "fdb4378c-cb55-4a37-bf00-f877a46041d9": {
+        "id": "fdb4378c-cb55-4a37-bf00-f877a46041d9",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749877770.0386732
+    },
+    "6ca3630b-8fc0-4297-b9eb-b1fb2f03e21f": {
+        "id": "6ca3630b-8fc0-4297-b9eb-b1fb2f03e21f",
+        "name": "Google Translate",
+        "keyword": "tr",
+        "cmd": "https://translate.google.com/?sl=en&tl=hi&text=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/Google_Translate_logo.svg.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749894777.2573123
+    },
+    "b2e025d8-ab29-4ec2-b2bb-97434e44506c": {
+        "id": "b2e025d8-ab29-4ec2-b2bb-97434e44506c",
+        "name": "X",
+        "keyword": "x",
+        "cmd": "https://x.com/search?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/vecteezy_x-new-twitter-logo_34716140.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749896242.8657703
+    },
+    "64330b84-173e-4993-9bcc-2a17901fc9aa": {
+        "id": "64330b84-173e-4993-9bcc-2a17901fc9aa",
+        "name": "Github",
+        "keyword": "git",
+        "cmd": "https://www.google.com/search?q=github+%s",
+        "icon": "~/.local/share/ulauncher/site-icons/pngwing.com.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749896972.9230924
+    },
+    "3f2a7f35-192c-43b5-93e9-d805ed85df21": {
+        "id": "3f2a7f35-192c-43b5-93e9-d805ed85df21",
+        "name": "Gmail",
+        "keyword": "gm",
+        "cmd": "https://mail.google.com/mail/u/0/#search/%s",
+        "icon": "~/.local/share/ulauncher/site-icons/Gmail_icon_(2020).svg.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749897230.4030645
+    },
+    "68a2df08-6da1-4222-94c2-6388b8ab1e2b": {
+        "id": "68a2df08-6da1-4222-94c2-6388b8ab1e2b",
+        "name": "Drive",
+        "keyword": "d",
+        "cmd": "https://drive.google.com/drive/search?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/vecteezy_google-drive-icon-google-product-illustration_12871368.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749897360.274684
+    },
+    "1d7dccd0-2d51-4a89-b557-83cc4c3497a6": {
+        "id": "1d7dccd0-2d51-4a89-b557-83cc4c3497a6",
+        "name": "YouTube",
+        "keyword": "y",
+        "cmd": "https://www.youtube.com/results?search_query=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/youtube.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749899746.0547168
+    },
+    "e05980eb-8d0b-46df-a4a0-aefe736dbdbf": {
+        "id": "e05980eb-8d0b-46df-a4a0-aefe736dbdbf",
+        "name": "Reddit",
+        "keyword": "r",
+        "cmd": "https://www.reddit.com/search?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/reddit.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749899856.897871
+    },
+    "b59aa4f0-6a60-4e0d-b7e7-7f843b6d82b5": {
+        "id": "b59aa4f0-6a60-4e0d-b7e7-7f843b6d82b5",
+        "name": "Perplexity",
+        "keyword": "p",
+        "cmd": "https://www.perplexity.ai/search?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/perplexity-ai-icon.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749899972.333418
+    },
+    "bcbb89d4-f94f-4179-9afa-a7870be160e7": {
+        "id": "bcbb89d4-f94f-4179-9afa-a7870be160e7",
+        "name": "ChatGPT",
+        "keyword": "c",
+        "cmd": "https://chat.openai.com/?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/chatgpt.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749900042.9001944
+    },
+    "d92dfae7-b532-4f9f-b684-83b5b6bed959": {
+        "id": "d92dfae7-b532-4f9f-b684-83b5b6bed959",
+        "name": "Grok",
+        "keyword": "gr",
+        "cmd": "https://grok.com/?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/grok.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749900244.4523342
+    },
+    "e5f9ec3f-351c-4421-9072-6b8943931774": {
+        "id": "e5f9ec3f-351c-4421-9072-6b8943931774",
+        "name": "Google",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/google-logo.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1749900909.7055686
+    },
+    "d49b85f3-abdb-4014-96f0-19ad205d1cca": {
+        "id": "d49b85f3-abdb-4014-96f0-19ad205d1cca",
+        "name": "Amazon",
+        "keyword": "a",
+        "cmd": "https://www.amazon.in/s?k=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/1490889698-amazon_82521.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749901069.5072987
+    },
+    "911d78a2-bb48-443b-895a-e936120eb4b1": {
+        "id": "911d78a2-bb48-443b-895a-e936120eb4b1",
+        "name": "LinkedIn",
+        "keyword": "l",
+        "cmd": "https://www.linkedin.com/search/results/all/?keywords=%s",
+        "icon": "~/.local/share/ulauncher/site-icons/linkedin.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749901121.733906
+    },
+    "8e16000e-6b23-41f5-af4f-b24ddab04ebb": {
+        "id": "8e16000e-6b23-41f5-af4f-b24ddab04ebb",
+        "name": "Search on Spotify",
+        "keyword": "s",
+        "cmd": "https://open.spotify.com/search/%s",
+        "icon": "~/.local/share/ulauncher/site-icons/spotify(1).png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1749901284.2816038
+    },
+    "c51a1d39-8752-499e-9c89-f91bce898bfa": {
+        "id": "c51a1d39-8752-499e-9c89-f91bce898bfa",
+        "name": "Instagram",
+        "keyword": "ig",
+        "cmd": "https://www.instagram.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/instagram.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749901400.7154725
+    },
+    "c343093e-7a50-4e5d-925f-47838d16e7d5": {
+        "id": "c343093e-7a50-4e5d-925f-47838d16e7d5",
+        "name": "Whatsapp",
+        "keyword": "wa",
+        "cmd": "https://web.whatsapp.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/whatsapp.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749901891.9242303
+    },
+    "8d68d320-7231-4c21-bc74-2ed82e1ca8fe": {
+        "id": "8d68d320-7231-4c21-bc74-2ed82e1ca8fe",
+        "name": "Telegram",
+        "keyword": "t",
+        "cmd": "https://web.telegram.org/a/",
+        "icon": "~/.local/share/ulauncher/site-icons/telegram-icon.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749902821.6881406
+    },
+    "3fe30732-f690-46b6-a023-e34eccbe8c08": {
+        "id": "3fe30732-f690-46b6-a023-e34eccbe8c08",
+        "name": "Notion Calendar",
+        "keyword": "cal",
+        "cmd": "https://calendar.notion.so/",
+        "icon": "~/.local/share/ulauncher/site-icons/BrandLogo.org-Notion-Calendar-Logo-2024.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749902937.1652951
+    },
+    "a2eb2d8b-502b-4d0e-afc8-50c4e943c905": {
+        "id": "a2eb2d8b-502b-4d0e-afc8-50c4e943c905",
+        "name": "Todoist",
+        "keyword": "todoist",
+        "cmd": "https://app.todoist.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/todoist.svg",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903035.3603342
+    },
+    "d5b07059-e690-4113-9c39-6b134ef49772": {
+        "id": "d5b07059-e690-4113-9c39-6b134ef49772",
+        "name": "Discord Web",
+        "keyword": "discord",
+        "cmd": "https://discord.com/app",
+        "icon": "~/.local/share/ulauncher/site-icons/discord-icon-svgrepo-com.svg",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903132.951126
+    },
+    "8f6b8b65-56a8-4e40-a18c-96aeb4f345a4": {
+        "id": "8f6b8b65-56a8-4e40-a18c-96aeb4f345a4",
+        "name": "Notion",
+        "keyword": "notion",
+        "cmd": "https://notion.so",
+        "icon": "~/.local/share/ulauncher/site-icons/notion_alt_macos_bigsur_icon_189899.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903259.4186692
+    },
+    "dc6d595a-09ca-4f80-9518-758b74ef0c66": {
+        "id": "dc6d595a-09ca-4f80-9518-758b74ef0c66",
+        "name": "Gmail",
+        "keyword": "gmail",
+        "cmd": "https://mail.google.com",
+        "icon": "~/.local/share/ulauncher/site-icons/Gmail_icon_(2020).svg.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903424.0443194
+    },
+    "20219c2e-d869-41f4-ac17-e0bae81b484a": {
+        "id": "20219c2e-d869-41f4-ac17-e0bae81b484a",
+        "name": "Youtube Studio",
+        "keyword": "yts",
+        "cmd": "https://studio.youtube.com",
+        "icon": "~/.local/share/ulauncher/site-icons/youtube.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903579.5113552
+    },
+    "f71655ce-5e59-441f-a08e-02b202d6c616": {
+        "id": "f71655ce-5e59-441f-a08e-02b202d6c616",
+        "name": "GitHub",
+        "keyword": "github",
+        "cmd": "https://github.com",
+        "icon": "~/.local/share/ulauncher/site-icons/pngwing.com.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903605.0185015
+    },
+    "d1d7ee53-6fa1-4738-9ddf-6d84feeacb6c": {
+        "id": "d1d7ee53-6fa1-4738-9ddf-6d84feeacb6c",
+        "name": "X (Twitter)",
+        "keyword": "twitter",
+        "cmd": "https://x.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/vecteezy_x-new-twitter-logo_34716140.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903710.1403263
+    },
+    "d6e78c18-9d3e-4cdf-a5db-4c7363f992e7": {
+        "id": "d6e78c18-9d3e-4cdf-a5db-4c7363f992e7",
+        "name": "YouTube",
+        "keyword": "yt",
+        "cmd": "https://youtube.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/youtube.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903734.4023108
+    },
+    "784d8069-e3cf-4230-8802-3afae286d51d": {
+        "id": "784d8069-e3cf-4230-8802-3afae286d51d",
+        "name": "Amazon Cart",
+        "keyword": "cart",
+        "cmd": "https://amazon.in/cart",
+        "icon": "~/.local/share/ulauncher/site-icons/1490889698-amazon_82521(1).png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749903854.2989802
+    },
+    "3a3b831f-5177-4d9d-a495-60ae1b41b9f0": {
+        "id": "3a3b831f-5177-4d9d-a495-60ae1b41b9f0",
+        "name": "ChatGPT",
+        "keyword": "chatgpt",
+        "cmd": "https://chatgpt.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/chatgpt.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749912287.252598
+    },
+    "21dbdf72-9cc6-4565-b05a-5981827af4e1": {
+        "id": "21dbdf72-9cc6-4565-b05a-5981827af4e1",
+        "name": "Cloudfare",
+        "keyword": "cloudfare",
+        "cmd": "https://dash.cloudflare.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/Cloudflare.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749912396.0323832
+    },
+    "0b88ef61-bbec-4ad5-a4fa-e5acc802fe0e": {
+        "id": "0b88ef61-bbec-4ad5-a4fa-e5acc802fe0e",
+        "name": "Amazon Orders",
+        "keyword": "orders",
+        "cmd": "https://amazon.in/orders",
+        "icon": "~/.local/share/ulauncher/site-icons/1490889698-amazon_82521(1).png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749912462.9430277
+    },
+    "bca94baa-ed0a-4924-bb8c-b422a8fca6f7": {
+        "id": "bca94baa-ed0a-4924-bb8c-b422a8fca6f7",
+        "name": "Product Hunt",
+        "keyword": "ph",
+        "cmd": "https://www.producthunt.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/product-hunt-logo-icon.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749916067.0075743
+    },
+    "c291d48d-375c-42bd-852b-a18ea3789fb0": {
+        "id": "c291d48d-375c-42bd-852b-a18ea3789fb0",
+        "name": "Outlook",
+        "keyword": "outlook",
+        "cmd": "https://outlook.office.com/mail/",
+        "icon": "~/.local/share/ulauncher/site-icons/microsoft-outlook-icon.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749930397.5546012
+    },
+    "038846d7-2484-4725-b67e-2e1a25b9320c": {
+        "id": "038846d7-2484-4725-b67e-2e1a25b9320c",
+        "name": "Google Docs",
+        "keyword": "docs",
+        "cmd": "https://docs.google.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/docs_2020q4_48dp.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749930503.2893226
+    },
+    "3297e0b3-0a1c-4210-aa23-3f2a8b817142": {
+        "id": "3297e0b3-0a1c-4210-aa23-3f2a8b817142",
+        "name": "Claude",
+        "keyword": "claude",
+        "cmd": "https://claude.ai/",
+        "icon": "~/.local/share/ulauncher/site-icons/claude-ai-icon.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749930606.9322777
+    },
+    "3788be68-5f26-4ecf-8e90-fece670754d1": {
+        "id": "3788be68-5f26-4ecf-8e90-fece670754d1",
+        "name": "Day One",
+        "keyword": "dayone",
+        "cmd": "https://dayone.me/",
+        "icon": "~/.local/share/ulauncher/site-icons/dayone.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749930726.4333057
+    },
+    "c720dce0-be1e-48ab-8ad1-a183db26a2da": {
+        "id": "c720dce0-be1e-48ab-8ad1-a183db26a2da",
+        "name": "The StoryGraph",
+        "keyword": "storygraph",
+        "cmd": "https://app.thestorygraph.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/sg.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1749930809.5680625
+    },
+    "757aefed-94df-483b-b9b3-745105bfdcf2": {
+        "id": "757aefed-94df-483b-b9b3-745105bfdcf2",
+        "name": "Weather",
+        "keyword": "w",
+        "cmd": "https://www.google.com/search?q=weather%20in%20charkhi%20dadri",
+        "icon": "~/.local/share/icons/WhiteSur-dark/apps/scalable/weather.svg",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1750264153.1110704
+    },
+    "fe0eb7f6-04f7-4939-ba48-4631c858d7bf": {
+        "id": "fe0eb7f6-04f7-4939-ba48-4631c858d7bf",
+        "name": "IIT Patna - Moodle",
+        "keyword": "iit",
+        "cmd": "https://cet.iitp.ac.in/moodle/my/",
+        "icon": "~/.local/share/ulauncher/scalable Icons/gnome-internet.svg",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1750599635.5962236
+    },
+    "a9bd4d4a-3846-469a-bf6e-7109eff16449": {
+        "id": "a9bd4d4a-3846-469a-bf6e-7109eff16449",
+        "name": "LinkedIn",
+        "keyword": "li",
+        "cmd": "https://linkedin.com/",
+        "icon": "~/.local/share/ulauncher/site-icons/linkedin.png",
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1750687297.7594795
+    },
+    "8f55bd59-037b-42a3-ac00-8c715e526d23": {
+        "id": "8f55bd59-037b-42a3-ac00-8c715e526d23",
+        "name": "Pinterest",
+        "keyword": "pi",
+        "cmd": "https://in.pinterest.com/search/pins/?q=%s",
+        "icon": "~/.local/share/ulauncher/scalable Icons/org.kde.pix.svg",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1756440707.0625348
+    }
+}
