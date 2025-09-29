@@ -1,0 +1,108 @@
+[/]
+control-center=['<Super>i']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/']
+home=@as []
+next=['<Shift><Alt>bracketright']
+play=['AudioPlay']
+previous=['<Shift><Alt>bracketleft']
+volume-step=3
+
+[custom-keybindings/custom0]
+binding='<Super>e'
+command='nautilus'
+name='Nautilus'
+
+[custom-keybindings/custom1]
+binding='<Shift><Control>Escape'
+command='flatpak run io.missioncenter.MissionCenter'
+name='Resources'
+
+[custom-keybindings/custom10]
+binding='<Shift><Super>q'
+command='nautilus /home/USER/Pictures/Screenshots'
+name='Screenshots Folder'
+
+[custom-keybindings/custom11]
+binding='<Shift><Super>x'
+command='flatpak run com.github.tenderowl.frog'
+name='Frog'
+
+[custom-keybindings/custom12]
+binding='<Shift><Super>n'
+command="bash -c 'gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled $(if [ \"$(gsettings get org.gnome.settings-daemon.plugins.color night-light-enabled)\" = \"true\" ]; then echo false; else echo true; fi)'\n"
+name='Toogle Night Light'
+
+[custom-keybindings/custom13]
+binding='<Super>z'
+command='flatpak run --command=io.github.alainm23.planify.quick-add io.github.alainm23.planify'
+name='Planify'
+
+[custom-keybindings/custom14]
+binding='<Alt>5'
+command='wmctrl -s 4'
+name='Workspace 5'
+
+[custom-keybindings/custom15]
+binding='<Alt>6'
+command='wmctrl -s 5'
+name='Workspace 6'
+
+[custom-keybindings/custom16]
+binding='<Alt>7'
+command='wmctrl -s 6'
+name='Workspace 7'
+
+[custom-keybindings/custom17]
+binding='<Alt>8'
+command='wmctrl -s 7'
+name='Workspace 8'
+
+[custom-keybindings/custom18]
+binding='<Alt>9'
+command='wmctrl -s 8'
+name='Workspace 9'
+
+[custom-keybindings/custom19]
+binding='<Alt>0'
+command='wmctrl -s 9'
+name='Workspace 10'
+
+[custom-keybindings/custom2]
+binding='<Super>t'
+command='ptyxis'
+name='Terminal'
+
+[custom-keybindings/custom3]
+binding='Print'
+command="bash -c 'file=\"$HOME/Pictures/Screenshots/Screenshot_$(date +%F_%H-%M-%S).png\"; gnome-screenshot -a -f \"$file\"; wl-copy --type image/png < \"$file\"'\n"
+name='Area Screenshot'
+
+[custom-keybindings/custom4]
+binding='<Shift>Print'
+command="bash -c 'file=\"$HOME/Pictures/Screenshots/Screenshot_$(date +%F_%H-%M-%S).png\"; gnome-screenshot -f \"$file\"; wl-copy --type image/png < \"$file\"'\n"
+name='Full Screenshot'
+
+[custom-keybindings/custom5]
+binding='<Super>space'
+command='ulauncher-toggle'
+name='ULauncher 1'
+
+[custom-keybindings/custom6]
+binding='<Alt>space'
+command='ulauncher-toggle'
+name='ULauncher 2'
+
+[custom-keybindings/custom7]
+binding='<Alt>AudioPlay'
+command='ulauncher-toggle'
+name='Ulauncher 3'
+
+[custom-keybindings/custom8]
+binding='<Shift><Super>f'
+command='flatpak run io.github.cboxdoerfer.FSearch'
+name='Fsearch'
+
+[custom-keybindings/custom9]
+binding='<Shift><Super>d'
+command="bash -c 'gsettings set org.gnome.desktop.notifications show-banners $(if [ \"$(gsettings get org.gnome.desktop.notifications show-banners)\" = \"true\" ]; then echo \"false\"; else echo \"true\"; fi)'"
+name='DND'

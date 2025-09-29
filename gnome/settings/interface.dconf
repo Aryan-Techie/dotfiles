@@ -1,0 +1,20 @@
+[/]
+accent-color='blue'
+clock-format='12h'
+clock-show-date=true
+clock-show-seconds=false
+clock-show-weekday=false
+color-scheme='prefer-dark'
+cursor-size=24
+cursor-theme='McMojave-cursors'
+enable-animations=true
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Adwaita Sans 11'
+gtk-enable-primary-paste=true
+gtk-key-theme='Default'
+gtk-theme='Adwaita-dark'
+icon-theme='WhiteSur-dark'
+locate-pointer=true
+show-battery-percentage=true
+toolkit-accessibility=false

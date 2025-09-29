@@ -1,0 +1,5 @@
+[/]
+current=uint32 0
+mru-sources=[('ibus', 'm17n:hi:phonetic'), ('xkb', 'us')]
+sources=[('xkb', 'us')]
+xkb-options=['rupeesign:4']

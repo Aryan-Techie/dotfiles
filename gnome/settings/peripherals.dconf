@@ -1,0 +1,8 @@
+[keyboard]
+numlock-state=true
+
+[touchpad]
+edge-scrolling-enabled=false
+send-events='enabled'
+speed=0.3125
+two-finger-scrolling-enabled=true

@@ -1,0 +1,34 @@
+# GNOME Shell Extensions Installed
+# Install these extensions manually or use the install script
+
+appindicatorsupport@rgcjonas.gmail.com
+appmenu-is-back@fthx
+blur-my-shell@aunetx
+caffeine@patapon.info
+clipboard-indicator@tudmotu.com
+color-picker@tuberry
+compiz-alike-magic-lamp-effect@hermes83.github.com
+cronomix@zagortenay333
+custom-hot-corners-extended@G-dH.github.com
+dash-to-dock@micxgx.gmail.com
+eepresetselector@ulville.github.io
+emoji-copy@felipeftn
+gestureImprovements@gestures
+grand-theft-focus@zalckos.github.com
+gsconnect@andyholmes.github.io
+gtk4-ding@smedius.gitlab.com
+impatience@gfxmonk.net
+just-perfection-desktop@just-perfection
+logomenu@USER_k
+middleclickclose@paolo.tranquilli.gmail.com
+monitor@astraext.github.io
+quake-terminal@diegodario88.github.io
+soft-brightness-plus@joelkitching.com
+space-bar@luchrioh
+status-area-horizontal-spacing@mathematical.coffee.gmail.com
+tilingshell@ferrarodomenico.com
+top-bar-organizer@julian.gse.jsts.xyz
+unite@hardpixel.eu
+user-theme@gnome-shell-extensions.gcampax.github.com
+weekly-commits@funinkina.is-a.dev
+yks_timer@ysfsvm
