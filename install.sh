@@ -100,6 +100,15 @@ create_symlinks() {
     else
         print_warning "VS Code not found, skipping VS Code configuration"
     fi
+
+    # Input Remapper presets
+    if [[ -d "$DOTFILES_DIR/.config/input-remapper-2" ]]; then
+        print_status "Setting up Input Remapper presets..."
+        mkdir -p "$HOME/.config"
+        cp -r "$DOTFILES_DIR/.config/input-remapper-2" "$HOME/.config/"
+        print_success "Input Remapper presets installed"
+        print_status "Note: Install input-remapper package and restart service to use presets"
+    fi
 }
 
 # Install dependencies

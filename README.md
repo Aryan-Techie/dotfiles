@@ -11,6 +11,8 @@
 - **🐚 Zsh Configuration**: Enhanced shell with custom aliases, functions, and plugins
 - **⚙️ Git Configuration**: Comprehensive git settings with useful aliases
 - **💻 VS Code Settings**: Optimized editor configuration
+- **🎨 GNOME Desktop**: Complete desktop environment with 30+ extensions
+- **🎮 Input Remapper**: Device-specific key and button remapping presets
 - **✨ Starship Prompt**: Beautiful, informative terminal prompt
 - **🛠️ System Scripts**: Automated system maintenance utilities
 
@@ -18,6 +20,8 @@
 
 - **Fedora-Optimized**: DNF package management aliases and system utilities
 - **Developer-Friendly**: Git shortcuts, development tool aliases, and functions
+- **Desktop Customization**: Complete GNOME setup with themes and extensions
+- **Hardware Support**: Input device remapping for productivity workflows
 - **System Monitoring**: Temperature, fan speed, and system information commands
 - **Flatpak Integration**: Easy Flatpak application management
 - **Automated Updates**: System update scripts for multiple package managers
@@ -66,11 +70,19 @@ source ~/.zshrc
 ```
 dotfiles/
 ├── .config/
+│   ├── input-remapper-2/   # Input device remapping presets
 │   └── starship.toml       # Starship prompt configuration
 ├── Code/User/
 │   └── settings.json       # VS Code editor settings
+├── gnome/
+│   ├── extensions/         # GNOME Shell extensions list
+│   ├── settings/           # GNOME desktop configuration
+│   └── README.md           # GNOME setup documentation
 ├── scripts/
-│   └── update-system.sh    # System update utility
+│   ├── export-gnome-settings.sh   # GNOME settings export
+│   ├── import-gnome-settings.sh   # GNOME settings import
+│   ├── install-extensions.sh      # GNOME extensions installer
+│   └── update-system.sh           # System update utility
 ├── .gitconfig              # Git global configuration with aliases
 ├── .gitignore              # Repository ignore rules
 ├── .gitignore_global       # Global gitignore patterns

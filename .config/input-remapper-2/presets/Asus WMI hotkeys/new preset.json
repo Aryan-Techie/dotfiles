@@ -1,0 +1,14 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 202,
+                "origin_hash": "a4ed55392c9903813db28aa247e551a6"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_R+l",
+        "mapping_type": "key_macro"
+    }
+]

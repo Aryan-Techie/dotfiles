@@ -1,0 +1,118 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_PLAYPAUSE",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 111,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_PRINT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 99,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_DELETE",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 125,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            },
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            },
+            {
+                "type": 1,
+                "code": 41,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_CAPSLOCK",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 104,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L+Super_L+KEY_LEFT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 109,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L+Super_L+KEY_RIGHT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 54,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            },
+            {
+                "type": 1,
+                "code": 104,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_PAGEUP",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 54,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            },
+            {
+                "type": 1,
+                "code": 109,
+                "origin_hash": "187535b7c130a8a204f83607098812f5"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_PAGEDOWN",
+        "mapping_type": "key_macro"
+    }
+]
